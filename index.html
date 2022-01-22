@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness Center</title>
+  </head>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Dongle:wght@300&family=Open+Sans:wght@300&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+      /* *{
+          background-color: blue;
+      } */
+    body {
+      font-family: "Baloo Thambi 2", cursive;
+      padding: 0px;
+      margin: 0px;
+      background: url("image.jpg") no-repeat center center fixed; 
+      -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+      background-repeat: no-repeat;
+    }
+    body {
+      color: aliceblue;
+    }
+    .left {
+      position: absolute;
+      left: 34px;
+      top: 25px;
+      /* border: 2px solid red; */
+      display: inline-block;
+    }
+    .mid {
+      display: block;
+      width: 50%;
+      margin: 50px auto;
+      /* border: 2px solid rgb(3, 255, 3); */
+    }
+    
+        .right {
+      position: absolute;
+      right: 34px;
+      top: 25px;
+      display: inline-block;
+      /* border: 2px solid rgb(213, 233, 37); */
+    }
+    .navbar {
+      display: inline-block;
+    }
+    .left img {
+      width: 83px;
+    }
+    .left div {
+      text-align: center;
+    }
+    .navbar li {
+      display: inline-block;
+      font-size: 17px;
+    }
+    .navbar li a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 41px;
+    }
+    .navbar li a :hover {
+      text-decoration: underline;
+      color: green;
+    }
+    .btn {
+      margin: 33px 15px;
+      background-color: wheat;
+      color: black;
+      padding: 7px 7px;
+      border: 2px solid grey;
+      border-radius: 15px;
+      font-size: 15px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: hotpink;
+      color: black;
+    }
+    .container {
+      /* border: 3px solid rgb(255, 255, 255); */
+      margin: 134px 93px;
+      padding: 54px 79px;
+      width: 33%;
+      border-radius: 35px;
+    }
+    .form-group input {
+      text-align: center;
+      display: block;
+      width: 293px;
+      padding: 6px;
+      border: 3px solid rgb(0, 0, 0);
+      margin: 5px auto;
+      border-radius: 16px;
+      font-family: "Baloo Thambi 2", cursive;
+      font-size: 20px;
+    }
+    .container h1 {
+      text-align: center;
+    }
+    .container button {
+      display: block;
+      width: 50%;
+      margin: 18px auto;
+    }
+  </style>
+  <body>
+    <header class="header">
+      <div class="left">
+        <div class="left">
+           <img src="gym-logo.jpg" alt="Error loading image" >
+          <div>Fitness Zone</div>
+        </div>
+      </div>
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Fitness calculator</a></li>
+          <li><a href="#">Donate</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <button class="btn">Call Us</button>
+        <button class="btn">Email-Us</button>
+      </div>
+    </header>
+    <div class="container">
+      <h1>Join the best gym of Gorakhpur</h1>
+      <form action="noaction.php"></form>
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your name" />
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter E-mail Adress" />
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="Contact number" />
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your age" />
+      </div>
+      <button class="btn">Submit</button>
+    </div>
+  </body>
+</html>
